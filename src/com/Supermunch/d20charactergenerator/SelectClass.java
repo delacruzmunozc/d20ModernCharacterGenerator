@@ -100,7 +100,7 @@ public class SelectClass extends Activity {
 			playerClassText.setText(R.string.classInfiltrator);
 		break;
 		case 2131034189:
-			playerClassText.setText(R.string.classGunslinger);
+			playerClassText.setText(R.string.classGunslingerDescription);
 		break;
 		}
     }
