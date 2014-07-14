@@ -4,19 +4,5 @@
     <string name="app_name">DND Character Sheet</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="setclass">Set Class</string>
-    <string name="characterClass">Class: </string>
-	<string name="classSoldier">Soldier</string>
-	<string name="classMartialArtist">Martial Artist</string>
-	<string name="classGunslinger">Gunslinger</string>
-	<string name="classInfiltrator">Infiltrator</string>
-	<string name="classDaredevil">Daredevil</string>
-	<string name="classBodyguard">Bodyguard</string>
-	<string name="classFieldScientist">Field Scientist</string>
-	<string name="classTechie">Techie</string>
-	<string name="classFieldMedic">Field Medic</string>
-	<string name="classInvestigator">Investigator</string>
-	<string name="classPersonality">Personality</string>
-	<string name="classNegotiator">Negotiator</string>
-		
+    
 </resources>

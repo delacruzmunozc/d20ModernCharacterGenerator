@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 public class SelectClass extends Activity {
@@ -35,6 +36,7 @@ public class SelectClass extends Activity {
                 Intent resultIntent = new Intent();
             	resultIntent.putExtra("class", id);
             	setResult(Activity.RESULT_OK, resultIntent);
+            	description();
             }
         }
     };
@@ -51,11 +53,55 @@ public class SelectClass extends Activity {
                 Intent resultIntent = new Intent();
             	resultIntent.putExtra("class", id);
             	setResult(Activity.RESULT_OK, resultIntent);
+            	description();
             }
         }
     };
     public void setClassClicked(View view)
     {
     	this.finish();
+    }
+    public void description()
+    {
+    	TextView playerClassText = (TextView)findViewById(R.id.textView1);
+		switch (id)
+		{
+		case 2131034177:
+			playerClassText.setText(R.string.classMartialArtistDescription);
+		break;
+		case 2131034178:
+			playerClassText.setText(R.string.classDaredevil);
+		break;
+		case 2131034179:
+			playerClassText.setText(R.string.classFieldScientist);
+		break;
+		case 2131034180:
+			playerClassText.setText(R.string.classBodyguard);
+		break;
+		case 2131034181:
+			playerClassText.setText(R.string.classInvestigator);
+		break;
+		case 2131034182:
+			playerClassText.setText(R.string.classPersonality);
+		break;
+		case 2131034184:
+			playerClassText.setText(R.string.classFieldMedic);
+		break;
+		case 2131034185:
+			playerClassText.setText(R.string.classNegotiator);
+		break;
+		case 2131034186:
+			playerClassText.setText(R.string.classTechie);
+		break;
+		case 2131034187:
+			playerClassText.setText(R.string.classSoldierDescription);
+		break;
+		case 2131034188:
+			playerClassText.setText(R.string.classInfiltrator);
+		break;
+		case 2131034189:
+			playerClassText.setText(R.string.classGunslinger);
+		break;
+		}
     }
 }

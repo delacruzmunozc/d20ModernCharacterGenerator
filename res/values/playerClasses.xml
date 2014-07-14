@@ -1,0 +1,45 @@
+<resources>
+	<string name="setclass">Set Class</string>
+    <string name="characterClass">Class: </string>
+	<string name="classSoldier">Soldier</string>
+	<string name="classMartialArtist">Martial Artist</string>
+	<string name="classGunslinger">Gunslinger</string>
+	<string name="classInfiltrator">Infiltrator</string>
+	<string name="classDaredevil">Daredevil</string>
+	<string name="classBodyguard">Bodyguard</string>
+	<string name="classFieldScientist">Field Scientist</string>
+	<string name="classTechie">Techie</string>
+	<string name="classFieldMedic">Field Medic</string>
+	<string name="classInvestigator">Investigator</string>
+	<string name="classPersonality">Personality</string>
+	<string name="classNegotiator">Negotiator</string>
+	<string name="classSoldierDescription">Requirements:
+	\nTo qualify to become a Soldier, a character must fulfill the following criteria: base attack bonus of +3; knowledge of tactics for 3 ranks; personal firearms proficiency
+	\nClass Information:
+	\nHit Die: 1d10
+	\nAction Points: 6 + one-half character level, rounded down, every time the character attains a new level in this class.
+	\nClass Skills: The Soldier’s class skills (and the key ability for each skill) are: Demolitions (Int), Drive (Dex), Intimidate (Cha), Jump (Str), Knowledge (current events, history, popular culture, tactics) (Int), Listen (Wis), Navigate (Int), Profession (Wis), Read/Write Language (none), Speak Language (none), Spot (Wis), Survival (Wis), Swim (Str). Skill Points at Each Level: 5 + Int modifier.
+	\nClass Features:
+	\nWeapon Focus: At 1st level, a Soldier gains the Weapon Focus class feature, providing the benefit of the feat with the same name. The Soldier chooses a specific weapon. The soldier can choose unarmed strike or grapple as the weapon. The soldier must be proficient with the chosen weapon. The soldier adds +1 to all attack rolls made using the selected weapon.
+	\nWeapon Specialization: At 2nd level, a Soldier gains weapon specialization with a specific melee or ranged weapon that he or she also has applied the Weapon Focus feat or class feature to. The soldier gets a +2 bonus on damage rolls with the chosen weapon.
+	\nBonus Feats: At 3rd, 6th, and 9th level, the Soldier gets a bonus feat. The bonus feat must be selected from the following list, and the Soldier must meet all the prerequisites of the feat to select it. Advanced Firearms Proficiency, Archaic Weapons Proficiency, Armor Proficiency (light), Armor Proficiency (medium), Armor Proficiency (heavy), Brawl, Burst Fire, Cleave, Combat Reflexes, Exotic Firearms Proficiency, Exotic Melee Weapon Proficiency, Far Shot, Great Cleave, Improved Brawl, Improved Knockout Punch, Knockout Punch, Power Attack.
+	\nTactical Aid: As a full-round action, the Soldier provides tactical aid to all of his allies (including himself) within sight and voice range of his position. This use of tactical aid requires an action point. This aid provides a +1 competence bonus on attack rolls. The bonus lasts for a number of rounds equal to one-half of the Soldier’s level in the advanced class, rounded down.
+	\nImproved Critical: For the weapon the Soldier has applied weapon specialization to the Soldier’s threat range increases by one. 
+	\nImproved Reaction: At 7th level, a Soldier gains a +2 competence bonus on initiative checks.
+	\nGreater Weapon Specialization: At 8th level, a Soldier gains greater weapon specialization with the weapon he  or she selected at 2nd level. This ability increases the bonus on damage rolls to +4 when using the selected weapon.
+	\nCritical Strike: At 10th level, a Soldier gains the ability to automatically confirm a threat as a critical hit when attacking with the weapon he or she has applied weapon specialization to, eliminating the need to make a roll to confirm the critical hit.
+	</string>
+	<string name="classMartialArtistDescription">Requirements:
+	\nTo qualify to become a Martial Artist, a character must fulfill the following criteria: base attack bonus of +3; the skill to jump 3 ranks; Combat Martial Arts, Defensive Martial Arts
+	\nClass Information:
+	\nHit Die: 1d8 
+	\nAction Points: 6 + one-half character level, rounded down, every time the martial artist attains a new level in this class.
+	\nClass Skills: The Martial Artist’s class skills (and the key ability for each skill) are: Balance (Dex), Climb (Str), Escape Artist (Dex), Hide (Dex), Intimidate (Cha), Jump (Str), Knowledge (current events, popular culture, theology and philosophy) (Int), Move Silently (Dex), Perform (dance) (Cha), Profession (Wis), Read/Write Language (none), Speak Language (none), Spot (Wis), Tumble (Dex). Skill Points at Each Level: 3 + Int modifier.
+	\nClass Features: The following features pertain to the Martial Artist advanced class.
+	\nLiving Weapon: The Martial Artist attacks with either fist interchangeably, or even with elbows, knees, and feet. This means that the Martial Artist may even make unarmed strikes when his or her hands are full, and there is no such thing as an off-hand attack for a Martial Artist striking unarmed. The Martial Artist also deals more damage with unarmed strikes. At 1st level, the martial artist deals 1d6 points of damage with an unarmed strike. At 4th level, damage increases to 1d8. At 8th level, it increases to 1d10. This is an increase to Combat Martial Arts damage; this has no effect on Brawl.
+	\nFlying Kick: Starting at 2nd level, a Martial Artist can use a charge to deliver a devastating flying kick to an opponent. At the end of this charge, the martial artist adds his or her class level as a bonus to the damage he or she deals with an unarmed strike.
+	\mBonus Feats: At 3rd, 6th, and 9th level, the Martial Artist gets a bonus feat. The bonus feat must be selected from the following list, and the Martial Artist must meet all the prerequisites of the feat to select it. Acrobatic, Advanced Combat Martial Arts, Archaic Weapons Proficiency, Combat Reflexes, Combat Throw, Elusive Target, Exotic Melee Weapon Proficiency, Improved Combat Throw, Improved Combat Martial Arts, Unbalance Opponent.
+	\nIron Fist: At 5th level, a Martial Artist gains the ability to spend 1 action point to increase the damage he or she deals to a single opponent with a single unarmed strike. The martial artist declares the use of the action point after making a successful unarmed strike. The result of the action point roll is added to the damage roll for that attack. At 10th level, this ability im¬proves. The Martial Artist now adds the result of the action point roll to all successful attacks he or she makes in a round.
+	\nFlurry of Blows: At 7th level, a Martial Artist gains the ability to strike with a flurry of blows at the expense of accuracy. The Martial Artist must be unarmored to use this talent, and he or she must make unarmed strikes to gain the benefit. With a flurry of blows, the Martial Artist may make one extra attack in a round at his or her highest base attack bonus. This attack and each other attack made in the round take a –2 penalty. This ability can only be used when taking the full attack action. The penalty applies to all attacks for one full round, including attacks of opportunity    
+	</string>
+</resources>		
