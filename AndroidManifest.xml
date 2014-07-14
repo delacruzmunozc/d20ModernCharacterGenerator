@@ -31,6 +31,14 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.Supermunch.d20charactergenerator.MainActivity" />
         </activity>
+        <activity android:name=".SelectCreature"
+			android:label="@string/setcreature"
+			android:parentActivityName="com.Supermunch.d20charactergenerator.MainActivity"
+			android:screenOrientation="portrait" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Supermunch.d20charactergenerator.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,16 +1,17 @@
 package com.Supermunch.d20charactergenerator;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
 	int playerClass;
+	int playerCreature;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -38,7 +39,12 @@ public class MainActivity extends ActionBarActivity {
 	}
 	public void setClassClicked(View view)
 	{
-		Intent intent = new Intent(this, SelectClass.class);
+		Intent intent = new Intent(this, SelectClassActivity.class);
+		startActivityForResult(intent, 0);
+	}
+	public void setCreatureClicked(View view)
+	{
+		Intent intent = new Intent(this, SelectCreatureActivity.class);
 		startActivityForResult(intent, 0);
 	}
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -47,6 +53,10 @@ public class MainActivity extends ActionBarActivity {
 	    case 0:
 	    	playerClass = data.getIntExtra("class", 0);
 	    	setClass();
+	    	break;
+	    case 1:
+	    	playerCreature = data.getIntExtra("creature", 0);
+	    	setCreature();
 	    	break;
 	    }
 	}
@@ -91,6 +101,15 @@ public class MainActivity extends ActionBarActivity {
 		case 2131034189:
 			playerClassText.setText(R.string.classGunslinger);
 		break;
+		}
+	}
+	public void setCreature()
+	{
+		TextView playerCreatureText = (TextView)findViewById(R.id.TextViewCreature);
+		switch (playerCreature)
+		{
+		default:
+			break;
 		}
 	}
 }
