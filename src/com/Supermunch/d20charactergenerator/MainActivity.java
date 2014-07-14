@@ -16,16 +16,13 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		setClass();
 	}
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
@@ -39,13 +36,13 @@ public class MainActivity extends Activity {
 	}
 	public void setClassClicked(View view)
 	{
-		Intent intent = new Intent(this, SelectClassActivity.class);
-		startActivityForResult(intent, 0);
+		Intent classIntent = new Intent(this, SelectClassActivity.class);
+		startActivityForResult(classIntent, 0);
 	}
 	public void setCreatureClicked(View view)
 	{
-		Intent intent = new Intent(this, SelectCreatureActivity.class);
-		startActivityForResult(intent, 0);
+		Intent creatureIntent = new Intent(this, SelectCreatureActivity.class);
+		startActivityForResult(creatureIntent, 1);
 	}
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
 	    switch (requestCode)
@@ -108,8 +105,53 @@ public class MainActivity extends Activity {
 		TextView playerCreatureText = (TextView)findViewById(R.id.TextViewCreature);
 		switch (playerCreature)
 		{
-		default:
-			break;
+		case 2131034180:
+			playerCreatureText.setText(R.string.creatureAbberation);
+		break;
+		case 2131034181:
+			playerCreatureText.setText(R.string.creatureConstruct);
+		break;
+		case 2131034182:
+			playerCreatureText.setText(R.string.creatureElemental);
+		break;
+		case 2131034183:
+			playerCreatureText.setText(R.string.creatureGiant);
+		break;
+		case 2131034184:
+			playerCreatureText.setText(R.string.creatureMagicalBeast);
+		break;
+		case 2131034185:
+			playerCreatureText.setText(R.string.creatureOutsider);
+		break;
+		case 2131034186:
+		break;
+		case 2131034187:
+			playerCreatureText.setText(R.string.creatureAnimal);
+		break;
+		case 2131034188:
+			playerCreatureText.setText(R.string.creatureDragon);
+		break;
+		case 2131034189:
+			playerCreatureText.setText(R.string.creatureFey);
+		break;
+		case 2131034190:
+			playerCreatureText.setText(R.string.creatureHumanoid);
+		break;
+		case 2131034191:
+			playerCreatureText.setText(R.string.creatureMonstrousHumanoid);
+		break;
+		case 2131034192:
+			playerCreatureText.setText(R.string.creatureOoze);
+		break;
+		case 2131034194:
+			playerCreatureText.setText(R.string.creatureVermin);
+		break;
+		case 2131034195:
+			playerCreatureText.setText(R.string.creaturePlant);
+		break;
+		case 2131034196:
+			playerCreatureText.setText(R.string.creatureUndead);
+		break;
 		}
 	}
 }

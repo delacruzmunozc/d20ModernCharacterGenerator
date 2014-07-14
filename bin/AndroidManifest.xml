@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SelectClass"
+        <activity android:name=".SelectClassActivity"
 			android:label="@string/setclass"
 			android:parentActivityName="com.Supermunch.d20charactergenerator.MainActivity"
 			android:screenOrientation="portrait" >
@@ -31,7 +31,7 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.Supermunch.d20charactergenerator.MainActivity" />
         </activity>
-        <activity android:name=".SelectCreature"
+        <activity android:name=".SelectCreatureActivity"
 			android:label="@string/setcreature"
 			android:parentActivityName="com.Supermunch.d20charactergenerator.MainActivity"
 			android:screenOrientation="portrait" >
