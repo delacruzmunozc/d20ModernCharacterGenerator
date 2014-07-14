@@ -25,7 +25,8 @@
         android:layout_below="@+id/editText2"
         android:minHeight="0dp"
         android:minWidth="0dp"
-        android:text="Set Class" />
+        android:onClick="setClassClicked"
+        android:text="@string/setclass" />
 
     <TextView
         android:id="@+id/textView1"

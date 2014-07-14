@@ -1,14 +1,17 @@
 package com.Supermunch.d20charactergenerator;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 public class SelectClass extends Activity {
 	RadioGroup rg1;
 	RadioGroup rg2;
+	int id;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,7 +31,10 @@ public class SelectClass extends Activity {
                 rg2.setOnCheckedChangeListener(null);
                 rg2.clearCheck(); 
                 rg2.setOnCheckedChangeListener(listener2);
-                Log.e("XXX2", "do the work");
+                id = checkedId;
+                Intent resultIntent = new Intent();
+            	resultIntent.putExtra("class", id);
+            	setResult(Activity.RESULT_OK, resultIntent);
             }
         }
     };
@@ -41,8 +47,15 @@ public class SelectClass extends Activity {
                 rg1.setOnCheckedChangeListener(null);
                 rg1.clearCheck();
                 rg1.setOnCheckedChangeListener(listener1);
-                Log.e("XXX2", "do the work");
+                id = checkedId;
+                Intent resultIntent = new Intent();
+            	resultIntent.putExtra("class", id);
+            	setResult(Activity.RESULT_OK, resultIntent);
             }
         }
     };
+    public void setClassClicked(View view)
+    {
+    	this.finish();
+    }
 }
