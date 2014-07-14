@@ -1259,8 +1259,8 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a0023;
-        public static final int app_name=0x7f0a0021;
+        public static final int action_settings=0x7f0a0024;
+        public static final int app_name=0x7f0a0022;
         public static final int characterClass=0x7f0a000e;
         public static final int classBodyguard=0x7f0a0014;
         public static final int classBodyguardDescription=0x7f0a0020;
@@ -1268,6 +1268,7 @@ containing a value of this type.
         public static final int classDaredevilDescription=0x7f0a001f;
         public static final int classFieldMedic=0x7f0a0017;
         public static final int classFieldScientist=0x7f0a0015;
+        public static final int classFieldScientistDescription=0x7f0a0021;
         public static final int classGunslinger=0x7f0a0011;
         public static final int classGunslingerDescription=0x7f0a001d;
         public static final int classInfiltrator=0x7f0a0012;
@@ -1280,7 +1281,7 @@ containing a value of this type.
         public static final int classSoldier=0x7f0a000f;
         public static final int classSoldierDescription=0x7f0a001b;
         public static final int classTechie=0x7f0a0016;
-        public static final int hello_world=0x7f0a0022;
+        public static final int hello_world=0x7f0a0023;
         public static final int setclass=0x7f0a000d;
     }
     public static final class style {
