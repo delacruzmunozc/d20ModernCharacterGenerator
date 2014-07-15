@@ -1266,14 +1266,10 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-<<<<<<< HEAD
-        public static final int action_settings=0x7f0a0030;
-        public static final int app_name=0x7f0a002e;
-=======
-        public static final int action_settings=0x7f0a0029;
-        public static final int app_name=0x7f0a0027;
->>>>>>> descriptionsOfClasses
+        public static final int action_settings=0x7f0a003a;
+        public static final int app_name=0x7f0a0038;
         public static final int characterClass=0x7f0a000e;
+        public static final int characterCreature=0x7f0a0028;
         public static final int classBodyguard=0x7f0a0014;
         public static final int classBodyguardDescription=0x7f0a0020;
         public static final int classDaredevil=0x7f0a0013;
@@ -1297,30 +1293,25 @@ containing a value of this type.
         public static final int classSoldier=0x7f0a000f;
         public static final int classSoldierDescription=0x7f0a001b;
         public static final int classTechie=0x7f0a0016;
-<<<<<<< HEAD
-        public static final int creature=0x7f0a001e;
-        public static final int creatureAbberation=0x7f0a001f;
-        public static final int creatureAnimal=0x7f0a0020;
-        public static final int creatureConstruct=0x7f0a0021;
-        public static final int creatureDragon=0x7f0a0022;
-        public static final int creatureElemental=0x7f0a0023;
-        public static final int creatureFey=0x7f0a0024;
-        public static final int creatureGiant=0x7f0a0025;
-        public static final int creatureHumanoid=0x7f0a0026;
-        public static final int creatureMagicalBeast=0x7f0a0027;
-        public static final int creatureMonstrousHumanoid=0x7f0a0028;
-        public static final int creatureOoze=0x7f0a0029;
-        public static final int creatureOutsider=0x7f0a002a;
-        public static final int creaturePlant=0x7f0a002b;
-        public static final int creatureUndead=0x7f0a002c;
-        public static final int creatureVermin=0x7f0a002d;
-        public static final int hello_world=0x7f0a002f;
-=======
         public static final int classTechieDescription=0x7f0a0022;
-        public static final int hello_world=0x7f0a0028;
->>>>>>> descriptionsOfClasses
+        public static final int creatureAbberation=0x7f0a0029;
+        public static final int creatureAnimal=0x7f0a002f;
+        public static final int creatureConstruct=0x7f0a002a;
+        public static final int creatureDragon=0x7f0a0030;
+        public static final int creatureElemental=0x7f0a002b;
+        public static final int creatureFey=0x7f0a0031;
+        public static final int creatureGiant=0x7f0a002c;
+        public static final int creatureHumanoid=0x7f0a0032;
+        public static final int creatureMagicalBeast=0x7f0a002d;
+        public static final int creatureMonstrousHumanoid=0x7f0a0033;
+        public static final int creatureOoze=0x7f0a0034;
+        public static final int creatureOutsider=0x7f0a002e;
+        public static final int creaturePlant=0x7f0a0036;
+        public static final int creatureUndead=0x7f0a0037;
+        public static final int creatureVermin=0x7f0a0035;
+        public static final int hello_world=0x7f0a0039;
+        public static final int setCreature=0x7f0a0027;
         public static final int setclass=0x7f0a000d;
-        public static final int setcreature=0x7f0a001d;
     }
     public static final class style {
         /** 

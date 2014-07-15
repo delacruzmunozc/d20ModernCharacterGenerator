@@ -56,7 +56,7 @@
         android:minHeight="0dp"
         android:minWidth="0dp"
         android:onClick="setCreatureClicked"
-        android:text="@string/setcreature" />
+        android:text="@string/setCreature" />
 
     <TextView
         android:id="@+id/TextView01"

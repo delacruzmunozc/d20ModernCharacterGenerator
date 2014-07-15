@@ -32,7 +32,7 @@
             android:value="com.Supermunch.d20charactergenerator.MainActivity" />
         </activity>
         <activity android:name=".SelectCreatureActivity"
-			android:label="@string/setcreature"
+			android:label="@string/setCreature"
 			android:parentActivityName="com.Supermunch.d20charactergenerator.MainActivity"
 			android:screenOrientation="portrait" >
         <meta-data

@@ -364,14 +364,10 @@ int string abc_searchview_description_submit 0x7f0a0007
 int string abc_searchview_description_voice 0x7f0a0008
 int string abc_shareactionprovider_share_with 0x7f0a000c
 int string abc_shareactionprovider_share_with_application 0x7f0a000b
-<<<<<<< HEAD
-int string action_settings 0x7f0a0030
-int string app_name 0x7f0a002e
-=======
-int string action_settings 0x7f0a0029
-int string app_name 0x7f0a0027
->>>>>>> descriptionsOfClasses
+int string action_settings 0x7f0a003a
+int string app_name 0x7f0a0038
 int string characterClass 0x7f0a000e
+int string characterCreature 0x7f0a0028
 int string classBodyguard 0x7f0a0014
 int string classBodyguardDescription 0x7f0a0020
 int string classDaredevil 0x7f0a0013
@@ -395,30 +391,25 @@ int string classPersonalityDescription 0x7f0a0025
 int string classSoldier 0x7f0a000f
 int string classSoldierDescription 0x7f0a001b
 int string classTechie 0x7f0a0016
-<<<<<<< HEAD
-int string creature 0x7f0a001e
-int string creatureAbberation 0x7f0a001f
-int string creatureAnimal 0x7f0a0020
-int string creatureConstruct 0x7f0a0021
-int string creatureDragon 0x7f0a0022
-int string creatureElemental 0x7f0a0023
-int string creatureFey 0x7f0a0024
-int string creatureGiant 0x7f0a0025
-int string creatureHumanoid 0x7f0a0026
-int string creatureMagicalBeast 0x7f0a0027
-int string creatureMonstrousHumanoid 0x7f0a0028
-int string creatureOoze 0x7f0a0029
-int string creatureOutsider 0x7f0a002a
-int string creaturePlant 0x7f0a002b
-int string creatureUndead 0x7f0a002c
-int string creatureVermin 0x7f0a002d
-int string hello_world 0x7f0a002f
-=======
 int string classTechieDescription 0x7f0a0022
-int string hello_world 0x7f0a0028
->>>>>>> descriptionsOfClasses
+int string creatureAbberation 0x7f0a0029
+int string creatureAnimal 0x7f0a002f
+int string creatureConstruct 0x7f0a002a
+int string creatureDragon 0x7f0a0030
+int string creatureElemental 0x7f0a002b
+int string creatureFey 0x7f0a0031
+int string creatureGiant 0x7f0a002c
+int string creatureHumanoid 0x7f0a0032
+int string creatureMagicalBeast 0x7f0a002d
+int string creatureMonstrousHumanoid 0x7f0a0033
+int string creatureOoze 0x7f0a0034
+int string creatureOutsider 0x7f0a002e
+int string creaturePlant 0x7f0a0036
+int string creatureUndead 0x7f0a0037
+int string creatureVermin 0x7f0a0035
+int string hello_world 0x7f0a0039
+int string setCreature 0x7f0a0027
 int string setclass 0x7f0a000d
-int string setcreature 0x7f0a001d
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063

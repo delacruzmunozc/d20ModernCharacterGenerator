@@ -62,40 +62,43 @@ public class MainActivity extends Activity {
 		TextView playerClassText = (TextView)findViewById(R.id.textView2);
 		switch (playerClass)
 		{
-		case 2131034177:
+		case 2131034180:
 			playerClassText.setText(R.string.classMartialArtist);
 		break;
-		case 2131034178:
+		case 2131034181:
 			playerClassText.setText(R.string.classDaredevil);
 		break;
-		case 2131034179:
+		case 2131034182:
 			playerClassText.setText(R.string.classFieldScientist);
 		break;
-		case 2131034180:
+		case 2131034183:
 			playerClassText.setText(R.string.classBodyguard);
 		break;
-		case 2131034181:
+		case 2131034184:
 			playerClassText.setText(R.string.classInvestigator);
 		break;
-		case 2131034182:
-			playerClassText.setText(R.string.classPersonality);
-		break;
-		case 2131034184:
-			playerClassText.setText(R.string.classFieldMedic);
-		break;
 		case 2131034185:
-			playerClassText.setText(R.string.classNegotiator);
+			playerClassText.setText(R.string.classPersonality);
 		break;
 		case 2131034186:
 			playerClassText.setText(R.string.classTechie);
 		break;
 		case 2131034187:
-			playerClassText.setText(R.string.classSoldier);
+			playerClassText.setText(R.string.classFieldMedic);
 		break;
 		case 2131034188:
-			playerClassText.setText(R.string.classInfiltrator);
+			playerClassText.setText(R.string.classNegotiator);
 		break;
 		case 2131034189:
+			playerClassText.setText(R.string.classTechie);
+		break;
+		case 2131034190:
+			playerClassText.setText(R.string.classSoldier);
+		break;
+		case 2131034191:
+			playerClassText.setText(R.string.classInfiltrator);
+		break;
+		case 2131034192:
 			playerClassText.setText(R.string.classGunslinger);
 		break;
 		}
@@ -122,8 +125,6 @@ public class MainActivity extends Activity {
 		break;
 		case 2131034185:
 			playerCreatureText.setText(R.string.creatureOutsider);
-		break;
-		case 2131034186:
 		break;
 		case 2131034187:
 			playerCreatureText.setText(R.string.creatureAnimal);
