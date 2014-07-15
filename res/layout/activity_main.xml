@@ -65,7 +65,7 @@
         android:layout_alignBaseline="@+id/button2"
         android:layout_alignBottom="@+id/button2"
         android:layout_toRightOf="@+id/button2"
-        android:text="@string/characterClass" />
+        android:text="@string/characterCreature" />
 
     <TextView
         android:id="@+id/TextViewCreature"
