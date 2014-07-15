@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-
 	int playerClass;
 	int playerCreature;
+	int playerSize;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -44,6 +44,11 @@ public class MainActivity extends Activity {
 		Intent creatureIntent = new Intent(this, SelectCreatureActivity.class);
 		startActivityForResult(creatureIntent, 1);
 	}
+	public void setCreatureSizeClicked(View view)
+	{
+		Intent sizeIntent = new Intent(this, SelectCreatureSizeActivity.class);
+		startActivityForResult(sizeIntent, 2);
+	}
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
 	    switch (requestCode)
 	    {
@@ -55,6 +60,9 @@ public class MainActivity extends Activity {
 	    	playerCreature = data.getIntExtra("creature", 0);
 	    	setCreature();
 	    	break;
+	    case 2:
+	    	playerSize = data.getIntExtra("size", 0);
+	    	setSize();
 	    }
 	}
 	public void setClass()
@@ -153,6 +161,14 @@ public class MainActivity extends Activity {
 		case 2131034196:
 			playerCreatureText.setText(R.string.creatureUndead);
 		break;
+		}
+	}
+	public void setSize()
+	{
+		TextView playerSizeText = (TextView)findViewById(R.id.textView3);
+		switch (playerSize)
+		{
+		
 		}
 	}
 }

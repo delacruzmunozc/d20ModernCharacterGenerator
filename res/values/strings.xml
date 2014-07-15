@@ -4,5 +4,6 @@
     <string name="app_name">DND Character Sheet</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
+    <string name="title_activity_select_creature_size">Choose the size of your creature</string>
+
 </resources>

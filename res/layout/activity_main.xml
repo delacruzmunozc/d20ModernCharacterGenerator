@@ -16,17 +16,47 @@
         <requestFocus />
     </EditText>
 
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:text="@string/characterCreatureSize" />
+
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button3"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextViewCreature"
         android:minHeight="0dp"
         android:minWidth="0dp"
-        android:onClick="setClassClicked"
-        android:text="@string/setclass" />
+        android:onClick="setCreatureSizeClicked"
+        android:text="@string/setCreatureSize" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:text="@string/characterCreature" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:onClick="setCreatureClicked"
+        android:text="@string/setCreature" />
 
     <TextView
         android:id="@+id/textView1"
@@ -34,8 +64,20 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_alignParentLeft="true"
         android:text="@string/characterClass" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText2"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:onClick="setClassClicked"
+        android:text="@string/setclass" />
 
     <TextView
         android:id="@+id/textView2"
@@ -44,28 +86,8 @@
         android:layout_alignBaseline="@+id/textView1"
         android:layout_alignBottom="@+id/textView1"
         android:layout_marginLeft="4dp"
-        android:layout_toRightOf="@+id/textView1" />
-
-    <Button
-        android:id="@+id/button2"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/button1"
-        android:minHeight="0dp"
-        android:minWidth="0dp"
-        android:onClick="setCreatureClicked"
-        android:text="@string/setCreature" />
-
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button2"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_toRightOf="@+id/button2"
-        android:text="@string/characterCreature" />
+        android:layout_toRightOf="@+id/textView1"
+        android:text=" " />
 
     <TextView
         android:id="@+id/TextViewCreature"
@@ -73,7 +95,16 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/TextView01"
         android:layout_alignBottom="@+id/TextView01"
-        android:layout_marginLeft="4dp"
-        android:layout_toRightOf="@id/TextView01" />
+        android:layout_alignRight="@+id/TextView02"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_toRightOf="@+id/TextView02"
+        android:text=" " />
 
 </RelativeLayout>

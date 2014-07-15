@@ -23,21 +23,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SelectClassActivity"
-			android:label="@string/setclass"
-			android:parentActivityName="com.Supermunch.d20charactergenerator.MainActivity"
-			android:screenOrientation="portrait" >
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.Supermunch.d20charactergenerator.MainActivity" />
+        <activity
+            android:name=".SelectClassActivity"
+            android:label="@string/setclass"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Supermunch.d20charactergenerator.MainActivity" />
         </activity>
-        <activity android:name=".SelectCreatureActivity"
-			android:label="@string/setCreature"
-			android:parentActivityName="com.Supermunch.d20charactergenerator.MainActivity"
-			android:screenOrientation="portrait" >
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.Supermunch.d20charactergenerator.MainActivity" />
+        <activity
+            android:name=".SelectCreatureActivity"
+            android:label="@string/setCreature"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Supermunch.d20charactergenerator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SelectCreatureSizeActivity"
+            android:label="@string/setCreatureSize" >
         </activity>
     </application>
 
