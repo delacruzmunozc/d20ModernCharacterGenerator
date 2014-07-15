@@ -1266,23 +1266,38 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+<<<<<<< HEAD
         public static final int action_settings=0x7f0a0030;
         public static final int app_name=0x7f0a002e;
+=======
+        public static final int action_settings=0x7f0a0029;
+        public static final int app_name=0x7f0a0027;
+>>>>>>> descriptionsOfClasses
         public static final int characterClass=0x7f0a000e;
         public static final int classBodyguard=0x7f0a0014;
+        public static final int classBodyguardDescription=0x7f0a0020;
         public static final int classDaredevil=0x7f0a0013;
+        public static final int classDaredevilDescription=0x7f0a001f;
         public static final int classFieldMedic=0x7f0a0017;
+        public static final int classFieldMedicDescription=0x7f0a0023;
         public static final int classFieldScientist=0x7f0a0015;
+        public static final int classFieldScientistDescription=0x7f0a0021;
         public static final int classGunslinger=0x7f0a0011;
+        public static final int classGunslingerDescription=0x7f0a001d;
         public static final int classInfiltrator=0x7f0a0012;
+        public static final int classInfiltratorDescription=0x7f0a001e;
         public static final int classInvestigator=0x7f0a0018;
+        public static final int classInvestigatorDescription=0x7f0a0024;
         public static final int classMartialArtist=0x7f0a0010;
         public static final int classMartialArtistDescription=0x7f0a001c;
         public static final int classNegotiator=0x7f0a001a;
+        public static final int classNegotiatorDescription=0x7f0a0026;
         public static final int classPersonality=0x7f0a0019;
+        public static final int classPersonalityDescription=0x7f0a0025;
         public static final int classSoldier=0x7f0a000f;
         public static final int classSoldierDescription=0x7f0a001b;
         public static final int classTechie=0x7f0a0016;
+<<<<<<< HEAD
         public static final int creature=0x7f0a001e;
         public static final int creatureAbberation=0x7f0a001f;
         public static final int creatureAnimal=0x7f0a0020;
@@ -1300,6 +1315,10 @@ containing a value of this type.
         public static final int creatureUndead=0x7f0a002c;
         public static final int creatureVermin=0x7f0a002d;
         public static final int hello_world=0x7f0a002f;
+=======
+        public static final int classTechieDescription=0x7f0a0022;
+        public static final int hello_world=0x7f0a0028;
+>>>>>>> descriptionsOfClasses
         public static final int setclass=0x7f0a000d;
         public static final int setcreature=0x7f0a001d;
     }

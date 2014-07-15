@@ -364,23 +364,38 @@ int string abc_searchview_description_submit 0x7f0a0007
 int string abc_searchview_description_voice 0x7f0a0008
 int string abc_shareactionprovider_share_with 0x7f0a000c
 int string abc_shareactionprovider_share_with_application 0x7f0a000b
+<<<<<<< HEAD
 int string action_settings 0x7f0a0030
 int string app_name 0x7f0a002e
+=======
+int string action_settings 0x7f0a0029
+int string app_name 0x7f0a0027
+>>>>>>> descriptionsOfClasses
 int string characterClass 0x7f0a000e
 int string classBodyguard 0x7f0a0014
+int string classBodyguardDescription 0x7f0a0020
 int string classDaredevil 0x7f0a0013
+int string classDaredevilDescription 0x7f0a001f
 int string classFieldMedic 0x7f0a0017
+int string classFieldMedicDescription 0x7f0a0023
 int string classFieldScientist 0x7f0a0015
+int string classFieldScientistDescription 0x7f0a0021
 int string classGunslinger 0x7f0a0011
+int string classGunslingerDescription 0x7f0a001d
 int string classInfiltrator 0x7f0a0012
+int string classInfiltratorDescription 0x7f0a001e
 int string classInvestigator 0x7f0a0018
+int string classInvestigatorDescription 0x7f0a0024
 int string classMartialArtist 0x7f0a0010
 int string classMartialArtistDescription 0x7f0a001c
 int string classNegotiator 0x7f0a001a
+int string classNegotiatorDescription 0x7f0a0026
 int string classPersonality 0x7f0a0019
+int string classPersonalityDescription 0x7f0a0025
 int string classSoldier 0x7f0a000f
 int string classSoldierDescription 0x7f0a001b
 int string classTechie 0x7f0a0016
+<<<<<<< HEAD
 int string creature 0x7f0a001e
 int string creatureAbberation 0x7f0a001f
 int string creatureAnimal 0x7f0a0020
@@ -398,6 +413,10 @@ int string creaturePlant 0x7f0a002b
 int string creatureUndead 0x7f0a002c
 int string creatureVermin 0x7f0a002d
 int string hello_world 0x7f0a002f
+=======
+int string classTechieDescription 0x7f0a0022
+int string hello_world 0x7f0a0028
+>>>>>>> descriptionsOfClasses
 int string setclass 0x7f0a000d
 int string setcreature 0x7f0a001d
 int style AppBaseTheme 0x7f0b008b
