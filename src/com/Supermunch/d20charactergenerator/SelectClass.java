@@ -82,13 +82,13 @@ public class SelectClass extends Activity {
 			playerClassText.setText(R.string.classInvestigatorDescription);
 		break;
 		case 2131034182:
-			playerClassText.setText(R.string.classPersonality);
+			playerClassText.setText(R.string.classPersonalityDescription);
 		break;
 		case 2131034184:
 			playerClassText.setText(R.string.classFieldMedicDescription);
 		break;
 		case 2131034185:
-			playerClassText.setText(R.string.classNegotiator);
+			playerClassText.setText(R.string.classNegotiatorDescription);
 		break;
 		case 2131034186:
 			playerClassText.setText(R.string.classTechieDescription);
